@@ -15,11 +15,6 @@ body {
   transition: all 0.3s ease;
 }
 
-body.dark {
-  background: #111;
-  color: #eee;
-}
-
 /* NAV */
 .container {
   width: 90%;
@@ -60,11 +55,9 @@ body.dark {
   display: flex;
 }
 
-.nav-links a,
-#themeToggle {
+.nav-links a {
   color: #fff;
   text-decoration: none;
-  /* margin: 0.5rem 0; */
   background: none;
   border: none;
 }
@@ -159,6 +152,10 @@ footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  .logo {
+    font-size: 2rem;
   }
 
   .hero-flex {
